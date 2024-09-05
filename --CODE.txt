@@ -1,0 +1,6 @@
+가상환경 삭제
+conda remove --name [가상 환경 이름] --all
+/
+/
+가상환경 이름 변경
+conda create --name NEWNAME --clone OLDNAME
