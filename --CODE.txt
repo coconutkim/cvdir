@@ -4,3 +4,7 @@ conda remove --name [가상 환경 이름] --all
 /
 가상환경 이름 변경
 conda create --name NEWNAME --clone OLDNAME
+/
+/
+만들어낸 사진 저장
+cv2.imwrite(r'C:\ex\cvdir\img\maze_keypoints.jpg',dst)

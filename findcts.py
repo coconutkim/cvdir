@@ -4,7 +4,7 @@ import random
 
 
 def contours_basic():
-    src = cv2.imread('contours.bmp', cv2.IMREAD_GRAYSCALE)
+    src = cv2.imread('./img/contours.bmp', cv2.IMREAD_GRAYSCALE)
 
     if src is None:
         print('Image load failed!')
@@ -26,7 +26,7 @@ def contours_basic():
 
 
 def contours_hier():
-    src = cv2.imread('contours.bmp', cv2.IMREAD_GRAYSCALE)
+    src = cv2.imread('./img/contours.bmp', cv2.IMREAD_GRAYSCALE)
 
     if src is None:
         print('Image load failed!')
